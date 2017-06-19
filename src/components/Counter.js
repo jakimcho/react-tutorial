@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
  
 /**
  * A counter button: tap the button to increase the count.

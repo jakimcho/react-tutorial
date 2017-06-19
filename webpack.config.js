@@ -17,22 +17,14 @@ module.exports = {
         use: [
           'babel-loader',
         ],
-      }, {
+      },
+       {
         test: /\.css$/,
-        use: [
-          {
-            loader: "style-loader"
-          },
-          {
-            loader: "css-loader",
-            options: {
-              modules: true
-            }
-          },
-        ],
+        use: ['style-loader', 'css-loader'],
       },
     ],
   },
+
   resolve: {
     modules: [
       path.join(__dirname, 'node_modules'),
