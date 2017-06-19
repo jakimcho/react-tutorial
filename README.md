@@ -3,4 +3,4 @@
 
 ## References
 
-* **[Setup initial react app]**(https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* **[Setup initial react app]**(http://andrewhfarmer.com/build-your-own-starter/)
