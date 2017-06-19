@@ -10,5 +10,12 @@
     "react"
   ],
   "author": "Jakim",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.25.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  }
 }
