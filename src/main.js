@@ -2,11 +2,8 @@ console.log('Hello World!');
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Counter from './components/Counter';
-import Display
+import App from './components/App';
 
-
-
- from './components/Display';
  
 document.addEventListener('DOMContentLoaded', function() {
   ReactDOM.render(
@@ -15,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
   );
 
   ReactDOM.render(
-    React.createElement(Display),
+    React.createElement(App),
     document.getElementById('calc')
   );
 });
