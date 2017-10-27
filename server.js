@@ -7,7 +7,13 @@ const app = express();
 const compiler = webpack(webpackConfig);
  
 app.use(express.static(__dirname + '/www'));
- 
+
+app.use(function (req, res, next) {
+  console.log('Time:', Date.now())
+  console.log('requested Url', req.url);
+  next()
+});
+
 app.use(webpackDevMiddleware(compiler, {
   hot: true,
   filename: 'bundle.js',

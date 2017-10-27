@@ -13,6 +13,7 @@ class Display extends React.Component {
     );
   }
 }
+
 Display.propTypes = {
   value: PropTypes.string,
 };
